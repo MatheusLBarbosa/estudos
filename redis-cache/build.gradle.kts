@@ -18,6 +18,7 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-starter-cache:3.2.2")
+	implementation("org.springframework.boot:spring-boot-starter-data-redis:3.2.2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

@@ -1,4 +1,6 @@
 package br.com.mlb.rediscache.product;
 
-public record Product(Long id, String name, String description) {
+import java.io.Serializable;
+
+public record Product(Long id, String name, String description) implements Serializable {
 }
